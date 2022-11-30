@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+}
+h3 {
+    color: blue;
+    font-size: x-large;
+}
+.important{
+    background-color: grey;
+}
+strong{
+    color: yellowgreen;
+    font-style: normal;
+}
+em{
+    color: orange;
+    font-size: larger;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+p:not(.important) {
+    background-color: pink;
+}
+
+article:nth-of-type(2) h3 {
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+}

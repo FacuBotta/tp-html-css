@@ -1,0 +1,15 @@
+h1{
+    text-align:center;
+}
+nav{
+    text-align:center;
+}
+li{
+    display: inline;
+}
+.griper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 200px;
+    grid-gap: 10px;
+}
